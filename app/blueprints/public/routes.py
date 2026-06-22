@@ -5,11 +5,11 @@ from . import public_bp
 def home ():
     return render_template('public/home.html')
 
-@public_bp.route('tienda')
+@public_bp.route('/tienda')
 def tienda ():
     return render_template('public/tienda.html')
 
-@public_bp.route('contacto')
+@public_bp.route('/contacto')
 def tienda ():
     return render_template('public/contacto.html')
 
